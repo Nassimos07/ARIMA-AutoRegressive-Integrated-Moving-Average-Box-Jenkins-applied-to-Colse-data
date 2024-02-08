@@ -1,7 +1,7 @@
 # ARIMA-AutoRegressive-Integrated-Moving-Average-Box-Jenkins-applied-to-Colse-data
 Ljung-Box test |  Model identification | Parameters estimation | Diagnostic checking | Forecasting
 
-![Forecasting Results](Figures/Forecasting results.png)
+![Forecasting Results](Figures/Forecasting_results.png)
 
 This MATLAB project focuses on Close Data Forecasting using the ARIMA (AutoRegressive Integrated Moving Average) model. ARIMA is a widely used time series forecasting method that encompasses autoregression, differencing, and moving average components.
 
