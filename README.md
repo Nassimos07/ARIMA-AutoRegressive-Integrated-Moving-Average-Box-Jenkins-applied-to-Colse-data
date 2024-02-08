@@ -1,5 +1,6 @@
 # ARIMA-AutoRegressive-Integrated-Moving-Average-Box-Jenkins-applied-to-Colse-data
 Ljung-Box test |  Model identification | Parameters estimation | Diagnostic checking | Forecasting
+![Forecasting](Figures/ARIMA_forecasting_simulation.mp4)
 
 
 This MATLAB project focuses on Close Data Forecasting using the ARIMA (AutoRegressive Integrated Moving Average) model. ARIMA is a widely used time series forecasting method that encompasses autoregression, differencing, and moving average components.
@@ -7,6 +8,7 @@ This MATLAB project focuses on Close Data Forecasting using the ARIMA (AutoRegre
 ## Stationarity Testing
 
 The provided code snippet demonstrates the process of stationarity testing using the Augmented Dickey-Fuller (ADF) test. Stationarity is a crucial assumption for time series analysis, including ARIMA modeling. The ADF test helps determine if a time series is stationary or not by analyzing its unit root.
+
 ![Normal, Log, Differtiated "Close data"](Figures/Close_LogClose_DiffeClose_Data.png)
 
 ### Code Explanation:
