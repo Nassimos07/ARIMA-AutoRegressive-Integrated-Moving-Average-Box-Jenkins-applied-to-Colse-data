@@ -1,9 +1,7 @@
 # ARIMA-AutoRegressive-Integrated-Moving-Average-Box-Jenkins-applied-to-Colse-data
 Ljung-Box test |  Model identification | Parameters estimation | Diagnostic checking | Forecasting
 
-![Forecasting results]([Link to Video](https://www.youtube.com/watch?v=your-video-id)
-)
-
+![Forecasting Results](Figures/Forecasting results.png)
 
 This MATLAB project focuses on Close Data Forecasting using the ARIMA (AutoRegressive Integrated Moving Average) model. ARIMA is a widely used time series forecasting method that encompasses autoregression, differencing, and moving average components.
 
@@ -37,10 +35,11 @@ The code snippet performs the following steps:
 
 The results of the ADF test are displayed, indicating whether each transformation resulted in a stationary or non-stationary time series.
 
-
+![](Figures/Stationarity_Test_Results.png)
 ## Finding P and Q Orders for ARIMA Model
 
 The provided MATLAB script `P_Q_finder.m` automates the process of determining the optimal P and Q orders for the ARIMA (AutoRegressive Integrated Moving Average) model based on the AIC (Akaike Information Criterion) and BIC (Bayesian Information Criterion) values.
+
 
 ### Script Explanation:
 
@@ -86,6 +85,7 @@ After applying this algorithm, we found that the optimal values for p and q were
 respectively. These values were chosen based on the lowest BIC and AIC values obtained from
 fitting ARIMA models with different combinations of p and q values.
 
+![](Figures/ARIMA_Parameters_Estimation.png)
 
 ## Diagnostic Checking
 
@@ -118,6 +118,9 @@ model adequately captures the autocorrelation structure in the time series data.
 the residuals are effectively random and do not exhibit any systematic patterns or structures. As a
 result, we can be more confident in the model’s ability to provide reliable forecasts for
 future values.
+
+![](Figures/Residulas_Autocorrelation_of_the_ARIMA_model.png)
+
 ## Forecasting
 
 After estimating the parameters of the ARIMA model and ensuring its adequacy through diagnostic checks, the final step is to perform forecasting using the `forecast` function in MATLAB. Forecasting allows us to predict future values of the time series based on the estimated model.
